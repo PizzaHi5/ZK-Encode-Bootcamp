@@ -7,8 +7,8 @@ out/
 /broadcast/*/31337/
 /broadcast/**/dry-run/
 
-# Docs
-docs/
+# Docs, choose to reveal docs since its a learning course
+# docs/
 
 # Dotenv file
 .env
