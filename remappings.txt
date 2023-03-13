@@ -1,0 +1,8 @@
+@openzeppelin/=lib/openzeppelin-contracts/
+@uniswap/=lib/v3-core/
+@chainlink/=lib/chainlink/
+@solmate/=lib/solmate/
+@aave/=lib/aave-v3-core
+ds-test/=lib/forge-std/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+base64-sol/=lib/base64/

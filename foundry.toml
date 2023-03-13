@@ -3,4 +3,17 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 
+[rpc_endpoints]
+ethereum = "${ETH_RPC_URL}"
+
+[etherscan]
+ethereumMain = { key = "ETHERSCAN_API_KEY" }
+
+# For local deployment, use:
+# forge script script/Profile.s.sol:ProfileScript --fork-url http://localhost:8545 --broadcast
+
+# For testnet deployment, use:
+# forge script script/Profile.s.sol:ProfileScript --rpc-url $MATIC_RPC_URL --broadcast --verify -vvvv
+
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
