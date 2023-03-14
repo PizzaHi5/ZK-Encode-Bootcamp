@@ -3,25 +3,58 @@ Maths Introduction
 Some modular arithmetic
 1. Working with the following set of Integers S = {0,1,2,3,4,5,6}
 What is
-a) 4 + 4
+a) 4 + 4 
+-   Following the examples provided:
+    4 + 4 = 8mod7 = 1
+    7 = prime number order of finite field Z
 b) 3 x 5
-c) what is the inverse of 3 ?
+-   15mod7 = 1
+c) what is the inverse of 3 ? =3?
+-   Using Fermats Theorum,
+    3^(7-2) = 243mod7 = 5
+
 2. For S = {0,1,2,3,4,5,6}
 Can we consider 'S' and the operation '+' to be a group ?
+-   Yes because S is a associative closed set containing identity and inverse elements combined with a binary operator '+'
+
 3. What is
 -13 mod 5 ?
+-   In modular arithmetic for i + kN | k Ɛ Z where 0 <= i < N-1,
+    -13%5 = (-13%5 + 5) % 5
+            (-3 + 5) % 5
+                2
+
 4. Polynomials
 For the polynomial
 Find a the positive root ?
 What is the degree of this polynomial ?
 x
+-   root = 0, 1st degree 
 3 − x
+-   root = 3, 1st degree
 2 + 4x − 12
+-   root = 5/2, 1st degree
+
 Use cases
 In your teams discuss any systems you have used that involved zero knowledge
 proofs.
+-   I have worked with Scroll and ZKSync. Won the Scroll bounty in EthDenver2023! These are zkEVMs that only require changing
+    compiler to deploy to a different network. It was a pretty straight forward process once I figured it out with the guides help.
+
 Have you seen any applications of zero knowledge proofs other than with a
 blockchain ?
+-   ZKPs were used with ZK-2FA. This was used to secure a private key when paired with an AA (account abstraction). 
+    EOA deploys AA smart contract, all funds/usage is done thru this smart contract. To interact with this AA, all
+    transactions must provide a 'password' thats checked thru a ZKP. 
+    
+
 What is to you, the most important feature of zkp technology ?
+-   Rollups is a massive needed implementaiton in the crypto space. Cheap transactions are an essential building block
+    for future more complex applications to be built on. Thats why we saw Perpetual Protocol required to deploy on optimism.
+    Transactions were too expensive for mainnet due to all the logic/complexity involve with derivatives and TWAP computation
+    requirements.
+
 Think of some use cases of zero knowledge proofs that you would like to see
 developed.
+-   I would like to see ZK-2FA become a reality. Being able to secure your private key with an extra layer of security incase
+    your key becomes compromised is huge! 
