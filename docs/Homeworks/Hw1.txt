@@ -49,7 +49,7 @@ blockchain ?
     
 
 What is to you, the most important feature of zkp technology ?
--   Rollups is a massive needed implementaiton in the crypto space. Cheap transactions are an essential building block
+-   Rollups is a massive needed implementation in the crypto space. Cheap transactions are an essential building block
     for future more complex applications to be built on. Thats why we saw Perpetual Protocol required to deploy on optimism.
     Transactions were too expensive for mainnet due to all the logic/complexity involve with derivatives and TWAP computation
     requirements.

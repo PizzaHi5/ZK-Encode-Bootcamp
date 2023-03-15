@@ -1,0 +1,27 @@
+Homework 3
+Practice using Zokrates
+Use Remix
+Install the Zokrates plugin
+1. Use the example file to generate a proof to show that a prover knows the
+square root of 25.
+-   Generated proof, got verifier.sol. Deployed verifier.sol, input verifyTx inputs => Got success! My prover knows 5*5=25.
+    My input was this:
+    [["0x0a150a0975c3dd10b35c67800275ab138c8f6b0dac28aa30e665aa9d4af0df57","0x25b20ee1cc9de77e2329ef4ef050b3858e0778cd527ce328a32c20d3fdadad9a"],
+    [["0x1b224756ac6f9d72c0e5c138027bbaf6d281b3cb22b219a9ae6df422eb4c16a3","0x24c7e16b64c934dad487776c9fbc7524e9d6770b945125ec7f5a7c2e802d10e2"],
+    ["0x2030765eed15b24a5956aa0b31b785fbbcac562d0d0d6fad53c3cee8452c202b","0x0127435e0874c0d80162ce02e003e266d8085f5e841e4a6299130406a8ad4ae6"]],
+    ["0x1bc5ff509f79f034b2761aaa6d767f918373ed66334240ae4a3b75139551dca0","0x294ab31bfb89b7f3fe3bce1199ca36966764906adbc9d829c7ae6715e3488bc0"]],
+    ["0x0000000000000000000000000000000000000000000000000000000000000019"]
+
+2. Try to create an invalid proof
+-   To create an invalid ZK-proof, one or more of the 3 main properties of a valid ZKP must be incorrect. These being:
+        Completeness, Soundness, and/or Zero-Knowledge
+    Being able to create an invalid proof means that the attacker can gain access to information they should not have or manipulate validation
+    breaking the underlying system. This is super bad!
+
+
+. Follow the example to build a proof that you know the pre image of a hash
+https://zokrates.github.io/examples/sha256example.html
+. In principle how could you use Zokrates to verify that a certain address on
+Ethereum has more than say 1 ETH ?
+-   Using 2 fields, check the field balance >= field u32 (our 1000000000000000000). I am not sure exactly how to pull that data from on-chain
+    currently. 
