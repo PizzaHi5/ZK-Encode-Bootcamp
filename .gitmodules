@@ -2,3 +2,6 @@
 	path = lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
 	branch = v1.5.1
+[submodule "lib/euler-contracts"]
+	path = lib/euler-contracts
+	url = https://github.com/euler-xyz/euler-contracts
