@@ -3,14 +3,15 @@ Homework Maths 2
 For a proof size, which of these would you want ?
 1. Modular arithmetic - you just need to find examples, you don't need to prove
 anything.
+1. Is it true that all odd squares are ≡ 1 (mod 8) ?
+. what about even squares (mod 8) ?
+
 . Try out the vanity bitcoin address example at asecurity or the Ethereum
 version
 https://asecuritysite.com/blockchain/vanity
 https://vanity-eth.tk/
 
 . What do you understand by
-1. Is it true that all odd squares are ≡ 1 (mod 8) ?
-. what about even squares (mod 8) ?
 1. O(n)
 . O(1)
 . O(log n)
