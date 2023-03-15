@@ -2,11 +2,11 @@
 pragma solidity ^0.8.0;
 
 import "forge-std/Test.sol";
-import "contracts/modules/EToken.sol";
-import "contracts/modules/DToken.sol";
-import "contracts/Euler.sol";
-import "contracts/modules/Liquidation.sol";
-import "contracts/modules/RiskManager.sol";
+import "@euler/contracts/modules/EToken.sol";
+import "@euler/contracts/modules/DToken.sol";
+import "@euler/contracts/Euler.sol";
+import "@euler/contracts/modules/Liquidation.sol";
+import "@euler/contracts/modules/RiskManager.sol";
 
 // forge test --fork-url $ETH_RPC_URL --fork-block-number 16818061 -vv -m testHack
 

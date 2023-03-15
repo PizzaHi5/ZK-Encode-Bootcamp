@@ -7,7 +7,7 @@ libs = ['lib']
 ethereum = "${ETH_RPC_URL}"
 
 [etherscan]
-ethereumMain = { key = "ETHERSCAN_API_KEY" }
+# ethereumMain = { key = "ETHERSCAN_API_KEY" } #error: must specify chain or url
 
 # For local deployment, use:
 # forge script script/Profile.s.sol:ProfileScript --fork-url http://localhost:8545 --broadcast
