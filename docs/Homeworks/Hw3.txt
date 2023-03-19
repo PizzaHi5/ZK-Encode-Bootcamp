@@ -21,6 +21,8 @@ square root of 25.
 
 . Follow the example to build a proof that you know the pre image of a hash
 https://zokrates.github.io/examples/sha256example.html
+-   I followed the tutorial and deployed locally. Saved the output contract to src/Hw3verifier.sol for future reference. Added some extra comments. 
+
 . In principle how could you use Zokrates to verify that a certain address on
 Ethereum has more than say 1 ETH ?
 -   Using 2 fields, check the field balance >= field u32 (our 1000000000000000000). I am not sure exactly how to pull that data from on-chain
