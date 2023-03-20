@@ -1,0 +1,23 @@
+Homework 5
+If you want to use gitpod, this is the format
+https://gitpod.io/#https://github.com/ExtropyIO/ZeroKnowledgeBootcamp
+
+. Make sure you can follow the recursion example on the Cairo playground
+https://www.cairo-lang.org/playground/
+. Does this example use tail recursion ?
+
+. Install the Argent X wallet or Braavos wallet and create an account
+https://www.argent.xyz/argent-x/
+https://braavos.app/
+. How does this account differ to an Ethereum EOA ?
+-   With group9 team, learned Braavos has AA so I am going with that. I like that compared to Metamask
+    which I have been using since I started, there are many more convience features built into the wallet.
+    For one, swaps are built in. Theres a nice UI to see NFTs. Once I finally bridged my L1 goerli eth to
+    Starknet L2 which took several minutes (possibly hours), I got to deploy a separate AA contract and
+    all my funds were transferred over. After digging around in Starknet for a while, I found some verified
+    cairo smart contracts. Very different language compared to Solidity! 
+    https://testnet.starkscan.co/class/0x025ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918#code
+    In terms of difference to Ethereum EOA, it looks quite similar. Accounts still have addresses however they
+    are handled as uint251 instead (felts). Its primarily the same to Ethereum but the underlying mechanisms/
+    structure is different. 
+

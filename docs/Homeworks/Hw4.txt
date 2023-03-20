@@ -5,7 +5,13 @@ you need to use hints instead.
 https://www.cairo-lang.org/playground/
 
 a) Run the program and see the output in the console
--   Put output here in txt file
+-   Program output:
+    10
+    20
+    410
+
+    Number of steps: 21
+    Program hash: 0x049a748653632ec760b53cb9830fb30e989b6a12fc8e15345fcb3ebfa79cf376
 
 . Install Protostar, instructions are below, today we are only going to use
 programs, so you do not need to write or deploy contracts.
