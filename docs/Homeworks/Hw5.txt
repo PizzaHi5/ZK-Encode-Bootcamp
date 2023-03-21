@@ -21,3 +21,5 @@ https://braavos.app/
     are handled as uint251 instead (felts). Its primarily the same to Ethereum but the underlying mechanisms/
     structure is different. 
 
+Cairo Playground Exercises:
+

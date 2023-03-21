@@ -1,0 +1,4 @@
+Homework 6
+Cairo Contracts
+Complete the storage and erc20 contract exercises in the repo
+https://github.com/ExtropyIO/ZeroKnowledgeBootcamp
