@@ -5,3 +5,6 @@
 [submodule "lib/euler-contracts"]
 	path = lib/euler-contracts
 	url = https://github.com/euler-xyz/euler-contracts
+[submodule "cairo_contracts"]
+	path = protostar/ZKencode/lib/cairo_contracts
+	url = https://github.com/OpenZeppelin/cairo-contracts
