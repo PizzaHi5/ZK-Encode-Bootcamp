@@ -15,10 +15,15 @@ a) Run the program and see the output in the console
 
 . Install Protostar, instructions are below, today we are only going to use
 programs, so you do not need to write or deploy contracts.
+-   Installed Protostar in protostar/ folder in this repo. Starting to get a feel for 
+    the Cairo language in protostar framework. 
 
 . Complete exercises in cairo/exercises/programs directory in this repo,
 follow the instructions in the README file in the cairo directory. If you have
 problems running the exercises, you can instead copy the code into the Cairo
 playground and run them there.
 https://github.com/ExtropyIO/ZeroKnowledgeBootcamp
+
+-   Relative path to completed exercises here:
+    protostar/ZKencode/Hw4tests/ZeroKnowledgeBootcamp/cairo/exercises/programs
 
