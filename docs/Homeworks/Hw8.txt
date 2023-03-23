@@ -1,0 +1,8 @@
+Homework 8
+. Discuss in your teams the need for confidential tokens
+. Have you / do you want to use ZCash or other confidential tokens ?
+. The future for Aztec and private transactions on Ethereum in light of what has
+happened to Tornado Cash.
+. Continue with the cairo program and cairo contract exercises in the repo
+https://github.com/ExtropyIO/ZeroKnowledgeBootcamp
+
