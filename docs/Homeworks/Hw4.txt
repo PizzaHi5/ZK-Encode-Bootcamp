@@ -24,6 +24,11 @@ problems running the exercises, you can instead copy the code into the Cairo
 playground and run them there.
 https://github.com/ExtropyIO/ZeroKnowledgeBootcamp
 
--   Relative path to completed exercises here:
-    protostar/ZKencode/Hw4tests/ZeroKnowledgeBootcamp/cairo/exercises/programs
+-   Reference repo to exercises here:
+    https://github.com/ExtropyIO/ZeroKnowledgeBootcamp/tree/main/cairo
+    - follow README, input programs in protostar/ZKencode/src/ into the exercises/programs/
 
+-   I am adding all the Cairo programs I got to work in this repo:
+    protostar/ZKencode/src/
+-   It took me a lot of hours to get through these exercises. I had a hard time but I am 
+    proud of the end result! :D
