@@ -12,3 +12,6 @@ out/
 
 # Dotenv file
 .env
+
+# ZK exercises
+/protostar/ZKencode/Hw4tests/ZeroKnowledgeBootcamp/

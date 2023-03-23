@@ -1,0 +1,4 @@
+Homework 7
+. Install Warp and try transpiling a solidity contract
+. For the basic contract you completed in the exercises, try deploying this to the
+alpha-goerli test net using protostar.
