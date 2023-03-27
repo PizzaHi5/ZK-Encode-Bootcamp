@@ -1,8 +1,26 @@
 Homework 8
 . Discuss in your teams the need for confidential tokens
+-   Basic financial privacy is similar to how bank accounts operate. Generally, ppL
+    desire a certain level of financial confidentially. Confidential tokens can
+    satisfy that need. 
+
 . Have you / do you want to use ZCash or other confidential tokens ?
+-   I have not used Zcash however I know of its existance. Knowing more about how it all
+    works under the hood is what I am here to learn about :). I will definitely use a
+    confidential token in the future. 
+
 . The future for Aztec and private transactions on Ethereum in light of what has
 happened to Tornado Cash.
+-   I heard that there is a push to make all transactions being private on Ethereum.
+    I do not think that would stop regulators. It would shift them to banning use of
+    or the currency entirely. Related to Aztec, I suspect that having the option to
+    privacy is essential however striking the right balance between privacy and transparency
+    is going to be a different task to achieve. Some private transactions on ETH will
+    be needed, thats for sure.
+
 . Continue with the cairo program and cairo contract exercises in the repo
 https://github.com/ExtropyIO/ZeroKnowledgeBootcamp
+-   Finished up cairo programs, onto cairo contracts now that I understand the syntax much
+    better. 3/27/23
+
 

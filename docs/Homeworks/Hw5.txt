@@ -22,4 +22,4 @@ https://braavos.app/
     structure is different. 
 
 Cairo Playground Exercises:
-
+    I ran thru the program exercises in the hw4 repo. 

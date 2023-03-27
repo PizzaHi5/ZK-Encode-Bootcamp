@@ -3,6 +3,8 @@ Noir
 1. Follow the instructions to install Rust and Noir
 ( the nargo directory is in crates/nargo)
 https://noir-lang.org/getting_started/nargo/installation.html
+-   Got it installed! Check!
+
 2. Create an example project
 https://noir-lang.org/getting_started/hello_world.html
 1. Create a new project
@@ -19,3 +21,8 @@ https://noir-lang.org/getting_started/hello_world.html
 6. Verify the proof
     nargo verify my_proof
 
+-   Followed the steps listed above! Look in the noir/hello_world/ 
+    folders in this repo. 'nargo verify p' worked successfully! 
+    Woot woot! Got my first Noir program running! This went very
+    smoothly compared to cairo. I also generated a smart contract
+    with my verified program. Look in the contract folder. 
