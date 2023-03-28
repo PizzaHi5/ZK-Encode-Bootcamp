@@ -1,0 +1,17 @@
+Homework 10
+ZkApps
+. Install the zkapp-cli and the dependencies
+https://github.com/o1-labs/zkapp-cli/
+    npm install -g zkapp-cli
+
+. Create the example sudoku project
+    zk example sudoku
+
+Make sure you understand the logic flow within the app
+-   Look in the mina/sudoku/ directory to see this homeworks effort. It was
+    a straight forward process to run. I combed thru the code and I see why
+    this is much more convienient to work with. Far easier to write with
+    since it uses Typescript. Many new developers from web2 can jump in and 
+    have an easier time getting into this over learning Solidity. Hardhat 
+    uses js/ts to execute too. This is similar to how Foundry does everything
+    in Solidity for Ethereum. Everything can be done in Typescript for Mina. 
