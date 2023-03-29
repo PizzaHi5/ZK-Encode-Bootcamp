@@ -1,0 +1,23 @@
+zkEVM Homework
+1. Deploying a contract to Polygon
+2. Create a simple contract in Remix, and deploy using metamask as the Injected
+provider.
+1. Set up metamask to connect to the test network
+2. Transfer some goerli ETH to your account on polygon zkEVM Testnet using
+the bridge
+bridge interface
+https://public.zkevm-test.net/
+
+    Network Name: Polygon zkEVM Testnet
+    RPC URL: https://rpc.public.zkevm-test.net
+    Chain ID: 1442
+    Currency Symbol: ETH
+    Block Explorer URL: https://explorer.public.zkevm-test.net
+
+3. Check your deployment and transactions using the block explorer
+https://explorer.public.zkevm-test.net/
+-   I deployed to Polygon ZkEVM testnet! Heres the link:
+    https://testnet-zkevm.polygonscan.com/address/0xb3c3aa3ea5db8bcab931d60ef7824214e034279b#code
+-   Much like ZkSync Era and Scroll, the process to deploy was straight forward. Scroll was just as easy
+    as polygon was. ZkSync required a different compiler and had some extra steps. 
+
