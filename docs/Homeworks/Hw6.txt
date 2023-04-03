@@ -2,4 +2,15 @@ Homework 6
 Cairo Contracts
 Complete the storage and erc20 contract exercises in the repo
 https://github.com/ExtropyIO/ZeroKnowledgeBootcamp
--   Here we go!
+-   Here we go! Worked a lot of hours on getting this to work! Got it! Wooooot Woot!
+    In the repo specified above, go to: cairo/ and run:
+    protostar test test/test_erc20.cairo
+    and 
+    protostar test test/test_storage.cairo
+    
+-   Both tests will succeed with the contracts found in this repo's directory:
+    protostar/ZKencode/src/erc20/erc20.cairo
+    and
+    protostar/ZKencode/src/storage/storage.cairo
+
+-   These 2 contracts were modified by me to meet the criteria specified in the ERC20 README in cairo. 
