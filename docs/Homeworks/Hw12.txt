@@ -1,0 +1,20 @@
+Homework 12
+1. Team Discussion
+Imagine you are developing a project and want to use one of the zkRollup based L2s
+1. What factors would be important to you when choosing which to use.
+-   Opcode availability is a consideration, I know ZKSync does not allow EXCODECOPY, CODECOPY, SELFDESTRUCT, and CALLCODE.
+    In these early stages, security is the main consideration. ZKSync went doesn for 5hours a few days ago which is a bad
+    sign however their TVL continues to increase ~10mil/day since launch atm. At $105mil today. PpL seem to trust them 
+    however they are the only mainnet ready ZK-EVM solution atm. Polygon and Scroll are still on their way. 4/3/23
+
+2. Of the protocols we have seen so far, which would you choose ?
+-   Considering all of this ZK tech is early on in development and not battle-tested, I would choose ZKSync, despite the 
+    missed opcodes. I believe that will be fixed in future updates. I imagine deploying in ZK-Polygon and Scroll will be
+    easier in the long term however. I was able to use Remix for Scroll which was a win! 
+
+2. The Mina - ETH bridge uses a STARK to prove the verification of a SNARK proof,
+what could be the rational behind mixing these 2 types of proving systems be?
+-   My thoughts boil down to FRI, being able to communicate back/forth to reduce the polynomial degree in half for each
+    back/forth between prover and verifier is huge! For especially sensitive parts of the system, that extra layer of
+    security could be very useful. Thats 2^n times more security where n is the # of back/forths. SNARKs are used for 
+    main since those do not need a trusted setup every time making upgrading easier. 
