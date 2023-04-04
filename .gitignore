@@ -15,3 +15,6 @@ out/
 
 # ZK exercises
 /protostar/ZKencode/Hw4tests/ZeroKnowledgeBootcamp/
+
+# node_modules from warp
+/node_modules/

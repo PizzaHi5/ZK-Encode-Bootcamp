@@ -1,4 +1,20 @@
 Homework 7
 . Install Warp and try transpiling a solidity contract
+-   Check the warp/ directory in this repo. Followed the README to install and transpile an
+    exampleERC20 and Storage contracts. 
+
 . For the basic contract you completed in the exercises, try deploying this to the
 alpha-goerli test net using protostar.
+-   After a bunch of setup attempts running commands in protostar/, got it:
+    https://testnet.starkscan.co/contract/0x0699c687b8e5500269c950bfe4c5f0623a5226bdbef1e6838328a32e63dc3c4a
+    Transaction Id: https://testnet.starkscan.co/tx/0x0417b84e4d993130f0eced8faf48cca317ce77d87bea833dab914fd9ac5209eb
+    This transaction failed but its a start! 
+
+-   Steps:
+    - Run 'protostart build'
+        -get clash hash and use that in deployment
+    - Run 'protostar deploy <clash hash> --max-fee 10000000000000 
+        --inputs <arg> <arg> --network testnet --account-address 
+          0x0710993b609dabcd730c794abf56b94f3076f762d937deb83c9cfea3a4898668 --private-key-path .env
+
+        This deploys a sample ERC20 contract so it required 2 felt input args. The address above is my Braavos wallet.

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@nethermindeth/warp": "^2.4.7"
+  }
+}
