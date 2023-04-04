@@ -1,0 +1,10 @@
+Homework 15
+Using Circom REPL
+See this partial circom code
+https://gist.github.com/extropyCoder/fe99bf4b0094354edaf7b737b14ffa0f
+Using this code in the zkREPL, complete the constraint on line 19 and add some
+appropriate inputs in the input section.
+Test that it creates a proof, and show that an incorrect proof fails.
+https://zkrepl.dev/
+-   Following guide in lesson 12 to setup circom and compile hw15
+-   Downloaded circom, the 4th ZK language
