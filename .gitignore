@@ -18,3 +18,7 @@ out/
 
 # node_modules from warp
 /node_modules/
+
+# projects
+Circom/circom/
+warp/
