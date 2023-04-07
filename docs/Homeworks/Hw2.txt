@@ -1,17 +1,42 @@
 Homework 2
 Homework Maths 2
 For a proof size, which of these would you want ?
+-   For the complexity ratios below, the ideal ratio is O(1) since the time/space required to solve the
+    polynomial is always the same no matter the inputs. SNARKS are ideal in this reguard. 
+
+. What do you understand by
+1. O(n)
+-   The input size to time/space taken to solve the algebraic problem increases at n rate. Linear increase.
+. O(1)
+-   Complexity ratio is constant. Time/space required to solve will always remain the same. SNARKS have O(1)
+    for verifier and proof size.
+. O(log n)
+-   Complexity increases at a log n rate. Bulletproof proof size increases at this rate. 
+
+
 1. Modular arithmetic - you just need to find examples, you don't need to prove
 anything.
+-   "clock math" as they say. 
+
 1. Is it true that all odd squares are ≡ 1 (mod 8) ?
+-   Yes! Insane to look at the math for this. Surprised me.
+
 . what about even squares (mod 8) ?
+-   Even squares mod 8 = 0 or 4. Its one or the other given integer and even X.
 
 . Try out the vanity bitcoin address example at asecurity or the Ethereum
 version
 https://asecuritysite.com/blockchain/vanity
 https://vanity-eth.tk/
+-   This is very cool! I made my own vanity address! Wooooooo! Here is the vanity address I made!
+    0x6969f8ACD895550c466D1829695cff5f7840B335
+    0x42069ca394D651C22AF4140759471dd98b5e8FC5
 
 . What do you understand by
 1. O(n)
+-   The input size to time/space taken to solve the algebraic problem increases at n rate. Linear increase.
 . O(1)
+-   Complexity ratio is constant. Time/space required to solve will always remain the same. SNARKS have O(1)
+    for verifier and proof size.
 . O(log n)
+-   Complexity increases at a log n rate. Bulletproof proof size increases at this rate. 
