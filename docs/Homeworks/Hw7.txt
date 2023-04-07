@@ -11,7 +11,7 @@ alpha-goerli test net using protostar.
     This transaction failed but its a start! 
 
 -   Steps:
-    - Run 'protostart build'
+    - Run 'protostar build'
         -get clash hash and use that in deployment
     - Run 'protostar deploy <clash hash> --max-fee 10000000000000 --inputs <arg> <arg> --network testnet --account-address 
           0x0710993b609dabcd730c794abf56b94f3076f762d937deb83c9cfea3a4898668 --private-key-path .env
