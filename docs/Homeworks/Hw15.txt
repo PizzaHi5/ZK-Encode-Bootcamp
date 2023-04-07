@@ -8,3 +8,14 @@ Test that it creates a proof, and show that an incorrect proof fails.
 https://zkrepl.dev/
 -   Following guide in lesson 12 to setup circom and compile hw15
 -   Downloaded circom, the 4th ZK language
+-   Added constraint in line 19 and inputs
+-   Put files generated from PLONK and Groth16 in Circom/Keys/
+-   Circuit Hash:
+		6e852d69 4abc7943 878a2783 7ad118d9
+		ee381ceb 35cebaeb f7db39d3 3eae52d1
+		22b61888 f7f5cf0a 70d00de0 b6206b88
+		d65f1523 2955c13c d2f5003a a4605dd3
+        from verified groth16 zkey
+-   I tested the proof would fail by changing a single value in the zkey file.
+    Immediately failed to prove the value stating it was out-of-bounds. Not 
+    having the correct proof will fail!
